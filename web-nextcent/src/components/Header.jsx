@@ -2,7 +2,7 @@ import HeaderImg from '../assets/img/header-img.png'
 
 const Header = () => {
     return (
-        <div className='flex items-center bg-[#F5F7FA] h-auto md:h-[37.5rem]'>
+        <div className='flex items-center bg-[#F5F7FA] h-auto md:h-[37.5rem] md:px-8'>
             <div className='container mx-auto max-w-[1320px] p-10 md:p-0 flex flex-col md:flex-row md:justify-between md:items-center'>
                 <div className=''>
                     <h1 className='text-[4rem] leading-[1] font-semibold text-[#4D4D4D]'>
