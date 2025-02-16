@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Client from './components/Client';
+import Community from './components/Community';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <Header />
       <Client />
+      <Community />
     </>
   )
 }
