@@ -16,12 +16,12 @@ const clientsImgLogo = [clientImgLogo01,
 
 const Client = () => {
     return (
-        <div>
-            <h2>Our Clients</h2>
-            <p>We have been working with some Fortune 500+ clients</p>
-            <ul>
+        <div className="container mx-auto max-w-[1320px] py-10 text-center">
+            <h2 className='text-[2.25rem] font-semibold text-[#4D4D4D]'>Our Clients</h2>
+            <p className='text-[#717171]'>We have been working with some Fortune 500+ clients</p>
+            <ul className='grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 my-10'>
                 {clientsImgLogo.map((client, index) => (
-                    <li key={index}>
+                    <li key={index} className='flex items-center justify-center'>
                         <img src={client} alt="Client Logo" />
                     </li>
                 ))}
